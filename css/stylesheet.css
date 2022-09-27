@@ -1,11 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;1,500&display=swap');
 
-body{padding: 0; margin: 0;font-family: 'Open Sans', sans-serif;display:block;background-color: rgb(221, 213, 213);}
-.btn_1{padding:6px 12px 6px 12px;border-radius: 80px;border: 1px solid #6c931e; background-color: #6c931e; color: rgb(252, 252, 251);}
+body{padding: 0; margin: 0;font-family: 'Open Sans', sans-serif;display:block;background-color: rgb(252, 251, 251);}
+
 
 
 /*----------------------------------------*/
-.fixedtopbar{background-color: rgb(251, 245, 245); width: 100%;position: fixed;z-index: 999;top: 0;}
+.fixedtopbar{background-color: rgb(251, 245, 245); width: 100%;position: fixed;z-index: 999;top: 0;background-color: rgb(250, 249, 249)}
 .top{padding: 10px;}
 .carousel-item:after {
     content:"";
@@ -15,17 +15,22 @@ body{padding: 0; margin: 0;font-family: 'Open Sans', sans-serif;display:block;ba
     left:0;
     right:0;
     background:rgba(47, 46, 46, 0.6);
-  }
-/*--------------------------------------------------*/
-/*-------------media screen-------------------------------------*/
+}
+.btn_1{padding:6px 12px 6px 12px;border-radius: 80px;border: 1px solid #6c931e; background-color: #6c931e; color: rgb(252, 252, 251);}
+.logo{font-weight: bold;color: rgb(129, 85, 41);font-size: large;}
+.nav-link{margin-right: 10px;font-size: 18px; font-weight: bold;padding-top: 5px;}
+.nav-item a{color:rgb(129, 85, 41);}
+.nav-item a:hover{color: #090909;}
+.Ad_to_cart{margin-left: 5px;}
+/*--------------media screen-------------*/
+/*--------------------------------------*/
 @media screen and (max-width: 767px) {
-    .carousel-item{margin-top:90px ;}
+    .carousel-item{margin-top:100px ;}
+    
 }
 /*----------------------------------*/
-.dropdown-item{color:rgb(129, 85, 41) ;background-color: #f9f6f6;}
-.dropdown-item:hover{background-color: #afb1b1;}
-.logo{font-weight: bold;color: rgb(129, 85, 41);font-size: large;}
-.nav-link{margin-right: 5px;font-size: 16px; font-weight: bold;padding-top: 5px;}
+
+
 /*----------------box card----------------------------*/
 .img_icon{margin-left:150px ;margin-bottom: 10px;position: relative;}
 .b_card{ margin-top: 100px;}
@@ -33,7 +38,7 @@ body{padding: 0; margin: 0;font-family: 'Open Sans', sans-serif;display:block;ba
 .b_card p{position: relative; text-align:center; margin-top: 22px;padding: 8px;}
 .underline-small{display:inline-block; position:relative;}
 .underline-small::after
-    {content:''; height:2px; width:25%; background:#6c931e; position:absolute; left:calc(50% - 10%); bottom:-15px;}
+    {content:''; height:3px; width:25%; background:#6c931e; position:absolute; left:calc(50% - 10%); bottom:-15px;}
 /*----------------------body part---------------------------------*/
 
 .middle_part{margin-top: 100px;}
@@ -218,3 +223,36 @@ border-bottom: 1px solid #999; */
         margin-bottom: 20px;
     }
 }
+/*---------------About us page----------------------------------------------------------*/
+.aboutimage{background-image:url(../images/about_backimage.jpg)  ;height: 600px;background-size: cover;}
+.aboutimage_text{top: 40%;left: 25%;position: absolute;display:block;color: rgb(244, 247, 249);text-align: center;}
+/*-----------------------------------------*/
+@media screen and (max-width: 767px) {
+    .aboutimage{background-position: center;}
+    .img_about{height: 300px; width: 300px;}
+    .aboutimage_text{top: 40%;left: 8%;position: absolute;display:block;color: rgb(244, 247, 249);text-align: center;}
+    
+    .aboutus_heading{font-size:15px ;}
+    .aboutus_para{font-size: 10px;}
+    .aboutus_backimage{background-position: center;}
+    .motivation_img{width: 300px;height: 150px;margin-bottom: 10px;}
+    
+    
+}
+/*----------------------------------------*/
+.aboutus_body{margin-top:15px ;}
+.aboutus{margin-top: 80px;}
+.btn_about_us{margin-top: 20px;}
+/*---------------*/
+.aboutus_backimage{background-image: url(../images/aboutus_backimage.jpg);height: 500px;background-size: cover;margin-top: 80px;}
+.aboutus_text{margin-top: 150px; color: #fbf7f7;}
+.aboutus_heading{font-size: 45px;}
+.btn_2{padding:6px 20px 6px 20px;border-radius: 80px;border: 1px solid #6c931e; background-color: #6c931e; color: rgb(252, 252, 251);}
+.middle_heading{font-size: 55px;margin-top: 80px;}
+/*------------------------*/
+.motivation{margin-top: 100px;}
+.moti_vation{margin-bottom:15px ;color:  rgb(129, 85, 41);}
+.motivation_img{border-radius: 10px;}
+
+
+/*-----------------------------------------------------------------------------*/

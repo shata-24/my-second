@@ -5,7 +5,7 @@ body{padding: 0; margin: 0;font-family: 'Open Sans', sans-serif;display:block;ba
 
 
 /*----------------------------------------*/
-.fixedtopbar{background-color: rgb(251, 245, 245); width: 100%;position: fixed;z-index: 999;top: 0;background-color: rgb(250, 249, 249)}
+.fixedtopbar{background-color: rgb(251, 245, 245); width: 100%;position: fixed;z-index: 999;top: 0;background-color: rgb(250, 249, 249);}
 .top{padding: 10px;}
 .carousel-item:after {
     content:"";
@@ -16,7 +16,7 @@ body{padding: 0; margin: 0;font-family: 'Open Sans', sans-serif;display:block;ba
     right:0;
     background:rgba(47, 46, 46, 0.6);
 }
-.btn_1{padding:6px 12px 6px 12px;border-radius: 80px;border: 1px solid #6c931e; background-color: #6c931e; color: rgb(252, 252, 251);}
+.btn_1{padding:6px 16px 6px 16px;border-radius: 80px;border: 1px solid #6c931e; background-color: #6c931e; color: rgb(252, 252, 251);}
 .logo{font-weight: bold;color: rgb(129, 85, 41);font-size: large;}
 .nav-link{margin-right: 10px;font-size: 18px; font-weight: bold;padding-top: 5px;}
 .nav-item a{color:rgb(129, 85, 41);}
@@ -183,7 +183,7 @@ border-bottom: 1px solid #999; */
 }
 .card .face.front-face .designation {
     font-size: 0.8rem;
-    color:  rgb(129, 85, 41);
+    color:  #815529;
     letter-spacing: 0.8px;
 }
 .card:hover .face.front-face {
@@ -236,10 +236,9 @@ border-bottom: 1px solid #999; */
     .aboutus_para{font-size: 10px;}
     .aboutus_backimage{background-position: center;}
     .motivation_img{width: 300px;height: 150px;margin-bottom: 10px;}
-    
-    
+    .service_youtube{width:300px ;height: 150px;}
 }
-/*----------------------------------------*/
+/*--------------------------*/
 .aboutus_body{margin-top:15px ;}
 .aboutus{margin-top: 80px;}
 .btn_about_us{margin-top: 20px;}
@@ -248,11 +247,32 @@ border-bottom: 1px solid #999; */
 .aboutus_text{margin-top: 150px; color: #fbf7f7;}
 .aboutus_heading{font-size: 45px;}
 .btn_2{padding:6px 20px 6px 20px;border-radius: 80px;border: 1px solid #6c931e; background-color: #6c931e; color: rgb(252, 252, 251);}
-.middle_heading{font-size: 55px;margin-top: 80px;}
-/*------------------------*/
+.middle_heading{font-size: 45px;margin-top: 80px;font-family: sans-serif ;}
+/*-----------------*/
 .motivation{margin-top: 100px;}
 .moti_vation{margin-bottom:15px ;color:  rgb(129, 85, 41);}
 .motivation_img{border-radius: 10px;}
 
 
-/*-----------------------------------------------------------------------------*/
+/*-----------------------Service page------------------------------------------------------*/
+.serviceimage{background-image:url(../images/service_backimage.jpg)  ;height: 600px;background-size: cover;}
+.serviceimage_text{top: 40%;left: 25%;position: absolute;display:block;color: rgb(244, 247, 249);text-align: center;}
+.service_img_text{margin-top: 150px;}
+.service_img_1{margin-bottom: 15px; border-radius: 8px 0px 8px 0px;}
+.service_img_para{margin-top: 10px;font-size: 15px;}
+
+@media screen and (max-width: 767px) {
+    .img_service{width: 300px; height: 300px;}
+    .showrooms_maps{width: 300px;height: 180px;}
+}
+.service_anfragen{margin-top: 100px; margin-bottom: 20px;}
+.service_body{margin-top: 35px;}
+
+/*--------------------------Contact Image---------------------------------------------------------*/
+.contactimage{background-image:url(../images/contact_backimagenew.jpg)  ;height: 600px;background-size: cover;}
+.contactimage_text{top: 40%;left: 25%;position: absolute;display:block;color: rgb(244, 247, 249);text-align: center;}
+.Kontaktire{margin-top: 100px;}
+.form_input{ border: 1px solid rgb(185, 184, 184);border-radius: 10px;margin-top:15px ;width: 70%;padding: 6px;}
+.contact_info{margin-top: 120px;margin-bottom: 50px;}
+.contact_info_head{margin-top: 10px; margin-bottom: 10px;}
+/*-----------------------------------------------------------------------------------------------*/
